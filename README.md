@@ -2,8 +2,9 @@
 
 训练
 ```
-python3 train.py --weights yolov5x.pt --epochs 50 --batch-size -1 --save-period 10
+python3 train.py --weights yolov5x.pt --data data/mydata.yaml --epochs 50 --batch-size -1 --save-period 10
 ```
+使用yolov5x作为预训练模型
 
 训练集配置保存在data/mydata.yaml
 
