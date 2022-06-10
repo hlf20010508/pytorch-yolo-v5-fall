@@ -7,6 +7,8 @@ python3 train.py --weights yolov5x.pt --epochs 50 --batch-size -1 --save-period 
 训练集配置保存在data/mydata.yaml
 模型保存在runs/train/exp/weights/best.pt
 
+<br/>
+
 测试
 ```
 python3 detect.py --weights runs/train/exp/weights/best.pt --nosave --conf-thres 0 --iou-thres 0 --save-txt --source fall-test/test
